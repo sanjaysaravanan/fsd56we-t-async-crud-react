@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.add-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 48px;
+  padding: 4px 12px;
+}
+
+
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay > form {
+  padding: 16px;
+  background-color: white;
+  text-align: center;
+}
+
+.overlay > form input {
+  display: block;
+  margin: 8px;
+  padding: 8px;
+  min-width: 520px;
+  font-size: 24px;
+}
+
+.overlay > form button {
+  font-size: 24px;
+}
